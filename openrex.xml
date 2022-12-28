@@ -14,8 +14,5 @@
 		<linkfile dest="setup-environment" src="setup-environment"/>
 	</project>
 
-	<project remote="freescale" revision="kirkstone" name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/>
-	<project remote="freescale" revision="kirkstone" name="meta-freescale-distro" path="sources/meta-freescale-distro"/>
-	<project remote="freescale" revision="kirkstone" name="Documentation" path="sources/Documentation"/>
 	<project remote="openrex" name="meta-openrex" revision="kirkstone" path="sources/meta-openrex"/>
 </manifest>
