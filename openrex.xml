@@ -7,9 +7,14 @@
 	<remote fetch="https://github.com/Ghalgaoui" name="openrex"/>
 
 	<project remote="yocto" revision="kirkstone" name="poky" path="sources/poky"/>
-	<project remote="yocto" revision="kirkstone" name="meta-freescale" path="sources/meta-freescale"/>
+	<project remote="yocto" revision="kirkstone" name="meta-fsl-arm" path="sources/meta-fsl-arm"/>
 	<project remote="oe" revision="kirkstone" name="meta-openembedded" path="sources/meta-openembedded"/>
 	<project remote="openrex" name="meta-openrex.git" revision="kirkstone" path="sources/meta-openrex"/>
-	<project remote="freescale" revision="kirkstone" name="Documentation" path="sources/Documentation"/>
+	<project remote="freescale" revision="kirkstone" name="meta-fsl-arm-extra" path="sources/meta-fsl-arm-extra"/>
+
+	<project remote="freescale" revision="kirkstone" name="fsl-community-bsp-base" path="sources/base">
+		<copyfile dest="README" src="README"/>
+		<copyfile dest="setup-environment" src="setup-environment"/>
+	</project>
 
 </manifest>
