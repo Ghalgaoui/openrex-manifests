@@ -15,4 +15,5 @@
 	</project>
 
 	<project remote="openrex" name="meta-openrex" revision="kirkstone" path="sources/meta-openrex"/>
+	<project remote="openrex" name="meta-bsp-openrex" revision="kirkstone" path="sources/meta-bsp-openrex"/>
 </manifest>
