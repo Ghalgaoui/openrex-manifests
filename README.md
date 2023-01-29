@@ -1,6 +1,6 @@
-$ mkdir openrex_workspace
-$ cd openrex_workspace
+$ mkdir openrex_workspace__
+$ cd openrex_workspace__
 
-$ repo init -u  https://github.com/Ghalgaoui/openrex-manifests.git -b kirkstone -m openrex.xml
-$ repo sync
-$ MACHINE=openrex-imx6quad DISTRO=openrex-distro source ./setup-environment build
+$ repo init -u  https://github.com/Ghalgaoui/openrex-manifests.git -b kirkstone -m openrex.xml __
+$ repo sync __
+$ MACHINE=openrex-imx6quad DISTRO=openrex-distro source ./setup-environment build__
