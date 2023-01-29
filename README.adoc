@@ -14,14 +14,14 @@ Download the BSP source:
 $: PATH=${PATH}:~/bin
 $: mkdir fsl-community-bsp
 $: cd fsl-community-bsp
-$: repo init -u https://github.com/Freescale/fsl-community-bsp-platform -b kirkstone
+$: repo init -u  https://github.com/Ghalgaoui/openrex-manifests.git -b kirkstone -m openrex.xml
 $: repo sync
 
 At the end of the commands you have every metadata you need to start work with.
 
 To start a simple image build:
 
-$: source ./setup-environment build
+$: MACHINE=openrex-imx6quad DISTRO=openrex-distro source ./setup-environment build
 $: bitbake core-image-minimal
 
 You can use any directory to host your build.
